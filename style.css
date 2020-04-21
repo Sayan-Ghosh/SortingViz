@@ -1,0 +1,249 @@
+
+@font-face {
+  font-family: product_sans;
+  src: url(/product_sans_regular-webfont.woff2) format('woff2'), url(/product_sans_regular-webfont.woff) format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+html {
+  height: 100%;
+}
+body {
+ 
+  font-family: 'product_sans';
+  background-color:#553275;
+  background: linear-gradient(to bottom right,  #0c031f,#638d97);
+  /*background: linear-gradient(to bottom right,  #200b49,#1a88a3);
+  /*background-image: linear-gradient(to bottom right, #541d85, #b81212 );
+/*background-image: linear-gradient(to bottom right, #442873,#c99df2, #a2f5d6); 
+ /* background-image: linear-gradient(to bottom right, #371b7d, #b193fa);*/
+   /*background-image: linear-gradient(to bottom right, #4a0b54, #cd94d6);*/
+   background-repeat: no-repeat;
+  color: #dedede;
+  align-content: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+h1,
+p {
+  text-align: center;
+}
+
+input[type=text]{
+border: 2px solid #aaa;
+border-radius: 10px;
+outline: none;
+padding: 8px;
+transition: .1s;
+font-family: 'product_sans';
+}
+
+input[type=text]:focus{
+  border-color: dodgerblue;
+  box-shadow: 0 0 8px 0 dodgerblue;
+}
+
+select[type=text]{
+  border: 2px solid #aaa;
+border-radius: 10px;
+outline: none;
+padding: 8px;
+transition: .1s;
+font-family: 'product_sans';
+}
+select[type=text]:focus{
+  border-color: dodgerblue;
+  box-shadow: 0 0 8px 0 dodgerblue;
+}
+
+#container {
+  margin: auto;
+  background-color: #FFFFFF;
+  width: 720px;
+  height: 540px;
+  border: 1px solid #CCCCCC;
+  border-radius: 8px;
+  padding: 8px;
+  position: relative;
+}
+.button {
+  width: 170px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  text-align: center;
+  color: #000;
+  text-transform: uppercase;
+  font-weight: 1000;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.button-1 {
+  background-color: transparent;
+  border: 3px solid #fdf0ff;
+  border-radius: 50px;
+  -webkit-transition: all .15s ease-in-out;
+  transition: all .15s ease-in-out;
+  color: #fdf0ff;
+}
+.button-1:hover {
+  box-shadow: 0 0 10px 0 #fdf0ff inset, 0 0 20px 2px #fdf0ff;
+  border: 3px solid #fdf0ff;
+}
+/*
+.button {
+   text-decoration: none;
+  color: rgba(255, 255, 255, 0.8);
+  background: rgb(145, 92, 182);
+  padding: 8px 30px;
+  border-radius: 4px;
+  font-weight: normal;
+  text-transform: uppercase;
+  transition: all 0.2s ease-in-out;
+
+  
+}
+.glow-button:hover {
+  color: rgba(255, 255, 255, 1);
+  box-shadow: 0 5px 15px rgba(145, 92, 182, .4);
+}*/
+
+#shuffle {
+  background-color: #2299FF;
+}
+
+#sort {
+  background-color: #55AA55;
+}
+
+#stop {
+  background-color: #ff5544;
+}
+
+.footer{
+  position: static;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color:#dedede;
+  text-align: center;
+}
+
+
+#social-icon{
+  position: absolute;
+  bottom: 20%;
+  margin-top: 50px;
+  width:10%;
+  z-index: 9999;
+}
+
+#social-icon ul{
+  padding: 0;
+  transform: translate(-270px,0);
+}
+#social-icon ul li{
+  display: block;
+  margin: 5px;
+  width: 310px;
+  text-align: right;
+  padding: 5px;
+  border-radius: 0 30px 30px 0;
+  transition: all 1s;
+}
+#social-icon ul li:hover{
+  transform: translate(110px,0);
+}
+#social-icon ul li a{
+  color: white;
+  text-decoration: none;
+}
+#social-icon ul li.github:hover i{
+  color:#fff;
+  background: rgba(0,0,0,0.38);
+  transform: rotate(360deg);
+  transition: all 1s;
+}
+#social-icon ul li.facebook:hover i{
+  color:#fff;
+  background: rgba(0,0,0,0.38);
+  transform: rotate(360deg);
+  transition: all 1s;
+}
+#social-icon ul li.linkedin:hover i{
+  color:#fff;
+  background: rgba(0,0,0,0.38);
+  transform: rotate(360deg);
+  transition: all 1s;
+}
+#social-icon ul li.instagram:hover i{
+  color:#fff;
+  background: rgba(0,0,0,0.38);
+  transform: rotate(360deg);
+  transition: all 1s;
+}
+#social-icon ul li.quora:hover i{ 
+  color:#fff;
+  background: rgba(0,0,0,0.38);
+  transform: rotate(360deg);
+  transition: all 1s;
+}
+#social-icon ul li.medium:hover i{
+  color:#fff;
+  background: rgba(0,0,0,0.38);
+  transform: rotate(360deg);
+  transition: all 1s;
+}
+
+#social-icon ul li i{
+  margin-left: 10px;
+  color:#212121;
+  padding: 10px;
+  border-radius: 50%;
+  width: 35px;
+  line-height: 35px;
+  height: 35px;
+  font-size: 25px;
+  transform: rotate(0deg);
+  text-align: center;
+  background: #fff;
+}
+
+.github{
+  background: black;
+}
+.github:hover{
+  background: #323845;
+}
+.facebook{
+  background: #3b5998;
+}
+.facebook:hover{
+  background: #6187d5; /*light*/
+}
+.linkedin{
+  background: #0077b5;
+}
+.linkedin:hover{
+  background: #00a0dc;
+}
+.instagram{
+  background: #c13584;
+}
+.instagram:hover{
+  background: #e1306c;
+}
+.quora{
+  background: #a82400;
+}
+.quora:hover{
+  background: #ea6a5b;
+}
+.medium{
+  background: #00ab6c;
+}
+.medium:hover{
+  background: #3ec996;
+}

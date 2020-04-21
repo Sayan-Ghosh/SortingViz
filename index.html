@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>SortingViz</title>
+    <link rel="icon" href="algologo.jpg">
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
+    crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="ont-awesome.min.css" />
+    <script src="https://kit.fontawesome.com/0226cb1156.js" crossorigin="anonymous"></script>
+  
+  </head>
+  <body>
+    <h1>SORTING ALGORITHM VISUALIZATION</h1>
+    <p style="font-size:25px"><b>
+      No. of elements: </b><input type="text" style="font-size:20px" id="elts" value="100" />
+      <button class="button button-1" style="font-size:18px" id="shuffle">Shuffle</button>
+    </p>
+    <p style="font-size:25px">
+      <b>Choose your Algorithm: </b>
+      
+      <select type="text" style="font-size:20px" id="algo">
+        <option>Quicksort</option>
+        <option>Merge Sort</option>
+        <option>Insertion Sort</option>
+        <option>Selection Sort</option>
+        <option>Bubble Sort</option>
+        
+      </select>
+      <br><br><b>
+        Framerate: </b><input type="text" style="font-size:25px" id="fr" value="30" />
+      <button class="button button-1" style="font-size:18px" id="sort">Sort</button>
+      <button class="button button-1" style="font-size:18px" id="stop">Stop</button><br><br>
+    </p>
+    
+    <div id="container"></div>
+    <script src="script.js"></script>
+    <div class ="footer">
+      <p style="font-size:20px"><b> Made with <a href="https://sayan-ghosh.github.io/Portfolio/" target="_blank">❤</a> by Sayan Ghosh, 2020 &nbsp;&nbsp;&nbsp;&nbsp; Email: ghosh.sayan999@gmail.com</b></p>
+      <div id="social-icon">
+      <ul>
+        <li class="github"><a href="https://github.com/Sayan-Ghosh"  target="_blank">GitHub<i class="fa fa-github"></i></a></li>
+        <li class="facebook"><a href="https://www.facebook.com/sayan.ghosh.54922169" target="_blank">Facebook<i class="fa fa-facebook"></i></a></li>
+        <li class="linkedin"><a href="https://www.linkedin.com/in/sayan-g-a39596111/" target="_blank">LinkedIn<i class="fa fa-linkedin"></i></a></li>
+        <li class="instagram"><a href="https://www.instagram.com/sayan_ghosh_06/?hl=en" target="_blank" id="insta">Instagram<i class="fa fa-instagram"></i></a></li>
+        <li class="quora"><a href="https://www.quora.com/profile/Sayan-Ghosh-234" target="_blank">Quora<i class="fa fa-quora"></i></a></li>
+        <li class="medium"><a href="https://medium.com/@sayanghosh_49221" target="_blank">Medium<i class="fa fa-medium"></i></a></li>
+      </ul>
+     </div>
+     <script src="main.js"></script>
+  </body>
+</html>
