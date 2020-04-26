@@ -36,11 +36,13 @@ function* bubbleSort() {
       states[j] = 0;
       states[j+1] = 1;
       states[j+2] = 1;
-
+/*
       if (vals[j] > vals[j+1]) {
         [vals[j], vals[j+1]] = [vals[j+1], vals[j]];
+      }*/
+     if (vals[j] > vals[j+1]) {
+        [vals[j], vals[j+1]] = [vals[j+1], vals[j]];
       }
-
       yield;
     }
 
