@@ -68,8 +68,8 @@ select[type=text]:focus{
 }
 .button {
   width: 170px;
-  padding-top: 15px;
-  padding-bottom: 15px;
+  padding-top: 18px;
+  padding-bottom: 18px;
   text-align: center;
   color: #000;
   text-transform: lowercase;
