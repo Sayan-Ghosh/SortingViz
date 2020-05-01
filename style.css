@@ -40,7 +40,7 @@ font-family: 'product_sans';
 
 input[type=text]:focus{
   border-color: dodgerblue;
-  box-shadow: 0 0 8px 0 dodgerblue;
+  box-shadow: 0 0 9px 0 dodgerblue;
 }
 
 select[type=text]{
