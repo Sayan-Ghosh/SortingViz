@@ -74,7 +74,7 @@ select[type=text]:focus{
   color: #000;
   text-transform: lowercase;
   font-weight: 1000;
-  margin-left: 10px;
+  margin-left: 11px;
   margin-bottom: 10px;
   cursor: pointer;
   display: inline-block;
