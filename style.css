@@ -136,7 +136,7 @@ select[type=text]:focus{
   position: absolute;
   bottom: 20%;
   margin-top: 50px;
-  width:10%;
+  width:20%;
   z-index: 9999;
 }
 
