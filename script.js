@@ -194,7 +194,7 @@ function* quicksort(lo, hi, first=true) {
   }
 } 
 
-
+/*--- Radix Sort ---*/
 
 function updateDOM() {
   if (currentSorter) currentSorter.next();
